@@ -11,7 +11,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     
         locationManager.requestAlwaysAuthorization()
-        locationManager.delegate = self as! CLLocationManagerDelegate
+        locationManager.delegate = self as CLLocationManagerDelegate
         locationManager.startUpdatingLocation()
         
     }
@@ -28,3 +28,4 @@ extension ViewController: CLLocationManagerDelegate {
 }
 
 
+}
