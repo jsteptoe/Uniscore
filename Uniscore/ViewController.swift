@@ -39,8 +39,9 @@ extension ViewController: CLLocationManagerDelegate {
     }
     
 }
+extension ViewController: MKMapViewDelegate {
+    
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
 
-
-
-
-
+}
+}
