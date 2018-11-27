@@ -1,20 +1,30 @@
-//
-//  ViewController.swift
-//  Uniscore
-//
-//  Created by Jake Steptoe (s5105535) on 27/11/2018.
-//  Copyright © 2018 Jake Steptoe (s5105535). All rights reserved.
-//
+
 
 import UIKit
+import MapKit
 
 class ViewController: UIViewController {
+    
+    let locationManager = CLLocationManager()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
+        locationManager.requestAlwaysAuthorization()
+        locationManager.delegate = self as! CLLocationManagerDelegate
+        locationManager.startUpdatingLocation()
+        
     }
 
 
 }
+
+
+extension ViewController: CLLocationManagerDelegate {
+    
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        print(locations.last!)
+}
+
 
