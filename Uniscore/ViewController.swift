@@ -21,7 +21,6 @@ class ViewController: UIViewController {
 
 }
 
-
 extension ViewController: CLLocationManagerDelegate {
     
     
@@ -36,15 +35,15 @@ extension ViewController: CLLocationManagerDelegate {
         }
     }
     
-    func locationManager(_ manager: CLLocationManager, didExitRegion region: CLRegion) {
+    private func locationManager(_ manager: CLLocationManager, didExitRegion region: CLRegion) {
         
     }
     
 }
 extension ViewController: MKMapViewDelegate {
     
-    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
-
+    private func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        
         guard let annotation = annotation as? Uni else { return nil }
         
         let identifier = "marker"
@@ -67,3 +66,5 @@ extension ViewController: MKMapViewDelegate {
     }
     
 }
+
+
