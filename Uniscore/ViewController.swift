@@ -10,13 +10,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     
+         mapView.userTrackingMode = .follow
+        
         locationManager.requestAlwaysAuthorization()
         locationManager.delegate = self as? CLLocationManagerDelegate
         locationManager.startUpdatingLocation()
         
         for Uni in MTLCaptureManager.uni {
-    locationManager.startMonitoring(for: treasure.region)
-    mapView.addAnnotation(treasure)
+    locationManager.startMonitoring(for: uni.region)
+    mapView.addAnnotation(uni)
 }
 
 }
