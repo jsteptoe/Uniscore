@@ -13,6 +13,7 @@
 		322412CF21AD9C23004F30A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322412CE21AD9C23004F30A2 /* Assets.xcassets */; };
 		322412D221AD9C23004F30A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322412D021AD9C23004F30A2 /* LaunchScreen.storyboard */; };
 		5AD7F0C421B04C820075284C /* UniManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD7F0C321B04C820075284C /* UniManager.swift */; };
+		5AD7F0C621B04DFE0075284C /* Uni.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD7F0C521B04DFE0075284C /* Uni.swift */; };
 		69251FD7B173A1C4591CAAB1 /* Pods_Uniscore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5123EAA3C6C50FF19AF656A /* Pods_Uniscore.framework */; };
 		9F1D3E6821ADA02A0076EB6A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F1D3E6721ADA02A0076EB6A /* GoogleService-Info.plist */; };
 		9F77223A21B03A7C004EB7C5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F77223921B03A7C004EB7C5 /* MapViewController.swift */; };
@@ -27,6 +28,7 @@
 		322412D121AD9C23004F30A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		322412D321AD9C23004F30A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AD7F0C321B04C820075284C /* UniManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniManager.swift; sourceTree = "<group>"; };
+		5AD7F0C521B04DFE0075284C /* Uni.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uni.swift; sourceTree = "<group>"; };
 		9F1D3E6721ADA02A0076EB6A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9F3C2C0DF6A87BFEF78B38B5 /* Pods-Uniscore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uniscore.release.xcconfig"; path = "Pods/Target Support Files/Pods-Uniscore/Pods-Uniscore.release.xcconfig"; sourceTree = "<group>"; };
 		9F77223921B03A7C004EB7C5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			children = (
 				322412C721AD9C23004F30A2 /* AppDelegate.swift */,
 				322412C921AD9C23004F30A2 /* ViewController.swift */,
+				5AD7F0C521B04DFE0075284C /* Uni.swift */,
 				5AD7F0C321B04C820075284C /* UniManager.swift */,
 				9F77223921B03A7C004EB7C5 /* MapViewController.swift */,
 				322412CB21AD9C23004F30A2 /* Main.storyboard */,
@@ -220,6 +223,7 @@
 				9F77223A21B03A7C004EB7C5 /* MapViewController.swift in Sources */,
 				5AD7F0C421B04C820075284C /* UniManager.swift in Sources */,
 				322412C821AD9C23004F30A2 /* AppDelegate.swift in Sources */,
+				5AD7F0C621B04DFE0075284C /* Uni.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
