@@ -20,3 +20,5 @@ class UniManager {
         uni.append(uni)
 }
 }
+ func setActivateUni(title: String) {
+}
