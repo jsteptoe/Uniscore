@@ -14,10 +14,15 @@ class ViewController: UIViewController {
         locationManager.delegate = self as? CLLocationManagerDelegate
         locationManager.startUpdatingLocation()
         
-    }
-
+        for Uni in MTLCaptureManager.uni {
+    locationManager.startMonitoring(for: treasure.region)
+    mapView.addAnnotation(treasure)
+}
 
 }
+
+}
+
 
 
 
