@@ -1,8 +1,7 @@
 import UIKit
-import Foundation
 import MapKit
 
-class MapViewController
+class MapViewController {
 
 extension ViewController: CLLocationManagerDelegate {
     
@@ -50,6 +49,4 @@ extension ViewController: MKMapViewDelegate {
     
 }
 
-
-
-
+}
