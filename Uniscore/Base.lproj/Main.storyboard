@@ -92,7 +92,7 @@
         <!--App Container View Controller-->
         <scene sceneID="0qq-px-YUe">
             <objects>
-                <viewController id="3W8-sb-pj8" customClass="AppContainerViewController" customModule="Uniscore" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AppContainerViewController" id="3W8-sb-pj8" customClass="AppContainerViewController" customModule="Uniscore" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LtR-fa-IBw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
