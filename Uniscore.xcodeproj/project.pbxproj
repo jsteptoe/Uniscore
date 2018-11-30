@@ -19,6 +19,7 @@
 		9F77223A21B03A7C004EB7C5 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F77223921B03A7C004EB7C5 /* MapViewController.swift */; };
 		9F9F8BE321B1BC8400F47EED /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F8BE221B1BC8400F47EED /* LoginViewController.swift */; };
 		9F9F8BE521B1BE3A00F47EED /* AppContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F8BE421B1BE3A00F47EED /* AppContainerViewController.swift */; };
+		9F9F8BE721B1C43000F47EED /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F8BE621B1C43000F47EED /* AppManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		9F77223921B03A7C004EB7C5 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		9F9F8BE221B1BC8400F47EED /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9F9F8BE421B1BE3A00F47EED /* AppContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainerViewController.swift; sourceTree = "<group>"; };
+		9F9F8BE621B1C43000F47EED /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
 		B5123EAA3C6C50FF19AF656A /* Pods_Uniscore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Uniscore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB97A5A456D822C61F9FB41E /* Pods-Uniscore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uniscore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Uniscore/Pods-Uniscore.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,6 +83,7 @@
 				322412CB21AD9C23004F30A2 /* Main.storyboard */,
 				9F9F8BE221B1BC8400F47EED /* LoginViewController.swift */,
 				9F9F8BE421B1BE3A00F47EED /* AppContainerViewController.swift */,
+				9F9F8BE621B1C43000F47EED /* AppManager.swift */,
 				322412CE21AD9C23004F30A2 /* Assets.xcassets */,
 				322412D021AD9C23004F30A2 /* LaunchScreen.storyboard */,
 				9F1D3E6721ADA02A0076EB6A /* GoogleService-Info.plist */,
@@ -232,6 +235,7 @@
 				322412C821AD9C23004F30A2 /* AppDelegate.swift in Sources */,
 				5AD7F0C621B04DFE0075284C /* Uni.swift in Sources */,
 				9F9F8BE521B1BE3A00F47EED /* AppContainerViewController.swift in Sources */,
+				9F9F8BE721B1C43000F47EED /* AppManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
