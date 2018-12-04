@@ -1,5 +1,3 @@
-
-
 import Foundation
 import CoreLocation
 
@@ -9,7 +7,7 @@ class UniManager {
     
     init() {
         
-        let uniCoordinate = CLLocationCoordinate2D(latitude: 50.715272, longitude: -1.875261)
+        let uniCoordinate = CLLocationCoordinate2D(latitude: 50.7424473, longitude: -1.8982909)
         let newUni = Uni(coordinate: uniCoordinate, title: "Uni")
         uni.append(newUni)
         
