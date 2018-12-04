@@ -16,7 +16,7 @@ class AppManager {
     func showApp() {
         
         var viewController: UIViewController
-        if.Auth.auth().currentUser == nil {
+        if Auth.auth().currentUser == nil {
             viewController = storyboard.instantiateViewController(withIdentifier: "LoginViewController")
         } else {
             viewController = storyboard.instantiateViewController(withIdentifier: "MainViewController")

@@ -59,6 +59,7 @@
 			children = (
 				322412C621AD9C23004F30A2 /* Uniscore */,
 				322412C521AD9C23004F30A2 /* Products */,
+				9F1D3E6721ADA02A0076EB6A /* GoogleService-Info.plist */,
 				CEC6D5E6C894679908952E51 /* Pods */,
 				D6B4E5F5D526FA5F5F57526D /* Frameworks */,
 			);
@@ -86,7 +87,6 @@
 				9F9F8BE621B1C43000F47EED /* AppManager.swift */,
 				322412CE21AD9C23004F30A2 /* Assets.xcassets */,
 				322412D021AD9C23004F30A2 /* LaunchScreen.storyboard */,
-				9F1D3E6721ADA02A0076EB6A /* GoogleService-Info.plist */,
 				322412D321AD9C23004F30A2 /* Info.plist */,
 			);
 			path = Uniscore;
