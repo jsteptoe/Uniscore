@@ -1,20 +1,27 @@
 import UIKit
 import MapKit
 
-class MapViewController {
+class MapViewController: UIViewController {
+    
+    @IBOutlet weak var mapView: MKMapView!
+    
+}
 
-extension ViewController: CLLocationManagerDelegate {
+extension MapViewController: CLLocationManagerDelegate {
     
-    
-    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        print(locations.last!)
+    func locationManager(_ manager: CLLocationManager, didEnterRegion region: CLRegion) {
         for annotation in mapView.annotations {
             if annotation.title == region.identifier {
                 guard let annotationView = mapView.view(for: annotation) as? MKMarkerAnnotationView else { return }
                 annotationView.markerTintColor = .green
-                treasureManager.setActivateTreasure(title: region.identifier)
             }
         }
+    }
+    
+    
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        print(locations.last!)
+        
     }
     
     private func locationManager(_ manager: CLLocationManager, didExitRegion region: CLRegion) {
@@ -22,7 +29,8 @@ extension ViewController: CLLocationManagerDelegate {
     }
     
 }
-extension ViewController: MKMapViewDelegate {
+    
+extension MapViewController: MKMapViewDelegate {
     
     private func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
         
@@ -49,4 +57,3 @@ extension ViewController: MKMapViewDelegate {
     
 }
 
-}

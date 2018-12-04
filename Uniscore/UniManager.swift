@@ -5,14 +5,18 @@ import CoreLocation
 
 class UniManager {
     
-    var uni = [uni]()
+    var uni = [Uni]()
     
     init() {
         
         let uniCoordinate = CLLocationCoordinate2D(latitude: 50.715272, longitude: -1.875261)
-        let uni = self.uni(coordinate: uniCoordinate, title: "Uni")
-        uni.append(uni)
+        let newUni = Uni(coordinate: uniCoordinate, title: "Uni")
+        uni.append(newUni)
+        
+    }
+    
+    func setActivateUni(title: String) {
+    }
+    
 }
-}
- func setActivateUni(title: String) {
-}
+
