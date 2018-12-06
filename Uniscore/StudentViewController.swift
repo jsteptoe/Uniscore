@@ -11,5 +11,9 @@ class StudentViewController: UIViewController {
         super.viewDidLoad()
     
     
+         FirebaseApp.configure()
+        
+         let db = Firestore.firestore()
     
+}
 }
